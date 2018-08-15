@@ -18,21 +18,15 @@ package com.macchinito.rtgps;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import android.app.IntentService;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
-import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.media.AudioManager; 
 import android.media.ToneGenerator;
 import android.os.Handler;
-import android.widget.Toast;
 
 import static com.macchinito.rtgps.CommonUtilities.TAG;
-import static com.macchinito.rtgps.CommonUtilities.CONTMODETIMEOUT;
 import static com.macchinito.rtgps.CommonUtilities.SERVER_MAIL;
 
 public class GcmIntentService extends IntentService {
@@ -66,7 +60,7 @@ public class GcmIntentService extends IntentService {
         // filter GCM message
         // ignore unknown type
         if (!extras.isEmpty()) {
-            if (GoogleCloudMessaging.MESSAGE_TYPE_SEND_ERROR.equals(messageType)) { 
+            if (GoogleCloudMessaging.MESSAGE_TYPE_SEND_ERROR.equals(messageType)) {
                 // error
                 Log.d(TAG,"messageType: " + messageType + ", send error:" + extras.toString());
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_DELETED.equals(messageType)) {

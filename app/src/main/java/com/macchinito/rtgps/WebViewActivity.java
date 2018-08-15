@@ -3,7 +3,6 @@ package com.macchinito.rtgps;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Window;
-import android.view.Menu;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.WebSettings;

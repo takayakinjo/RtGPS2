@@ -5,13 +5,7 @@ import javax.mail.*;
 import javax.mail.internet.*;
 
 import java.util.Properties;
-import java.util.Date;
 
-import android.content.Context;
-import android.widget.Toast;
-
-import android.app.Activity;
-import android.os.Bundle;
 import android.util.Log;
 
 class mailInfo {

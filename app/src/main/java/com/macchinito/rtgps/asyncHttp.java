@@ -4,8 +4,6 @@ import android.annotation.SuppressLint;
 import android.net.Uri;
 import android.net.Uri.Builder;
 import android.os.AsyncTask;
-import android.widget.Toast;
-
 import android.util.Log;
 
 // defines

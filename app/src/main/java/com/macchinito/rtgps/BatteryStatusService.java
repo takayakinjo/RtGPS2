@@ -6,10 +6,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.IBinder; 
 
-import android.os.Bundle;
 import android.util.Log;
-
-import android.widget.Toast;
 
 import android.content.BroadcastReceiver;
 import android.os.BatteryManager;

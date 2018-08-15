@@ -8,26 +8,21 @@ import android.os.IBinder;
 import android.os.Bundle;
 import android.util.Log;
 
-import android.widget.Toast;
-
 import android.os.Handler;
 
 // location service
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.location.LocationProvider;
 
 // log file write
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 // date, calendar
 import java.util.Date; 
-import java.text.SimpleDateFormat; 
-import java.util.Calendar;
+import java.text.SimpleDateFormat;
 
 // tones
 import android.media.AudioManager; 

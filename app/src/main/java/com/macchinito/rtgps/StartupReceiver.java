@@ -1,13 +1,8 @@
 package com.macchinito.rtgps;
 
-import android.os.Bundle;
 import android.util.Log;
 
 import android.content.*;
-import android.app.Service;
-
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 
 import static com.macchinito.rtgps.CommonUtilities.TAG;
 

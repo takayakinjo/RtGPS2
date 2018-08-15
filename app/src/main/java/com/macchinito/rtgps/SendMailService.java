@@ -1,24 +1,12 @@
 package com.macchinito.rtgps;
 
-import android.app.Service; 
-import android.content.Context;
+import android.app.Service;
 import android.content.Intent; 
 import android.os.IBinder; 
 
-import android.os.Bundle;
 import android.util.Log;
 
 import android.net.Uri;
-import android.net.Uri.Builder;
-
-import android.widget.Toast;
-
-//import java.util.Timer;
-//import java.util.TimerTask;
-
-import android.os.Handler;
-
-import android.widget.Toast;
 
 import java.util.Date; 
 import java.text.SimpleDateFormat; 

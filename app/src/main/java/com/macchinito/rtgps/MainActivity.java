@@ -1,18 +1,8 @@
 package com.macchinito.rtgps;
 
 import java.io.IOException;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Map.Entry;
 
-//GCM 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
+//GCM
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import android.app.Activity;
@@ -21,23 +11,14 @@ import android.util.Log;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-
-import android.widget.Toast;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 
-import android.content.BroadcastReceiver;
-import android.os.BatteryManager;
-
-import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
 
 // button
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.macchinito.rtgps.R.id;
@@ -49,21 +30,15 @@ import android.os.AsyncTask;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.view.Window;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import android.net.Uri;
 
 import android.hardware.Camera;
 
 import static com.macchinito.rtgps.CommonUtilities.SENDER_ID;
 import static com.macchinito.rtgps.CommonUtilities.TAG;
-import static com.macchinito.rtgps.CommonUtilities.MAIL1;
-import static com.macchinito.rtgps.CommonUtilities.MAIL2;
 
 public class MainActivity extends Activity {
 

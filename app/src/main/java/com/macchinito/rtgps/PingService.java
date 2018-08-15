@@ -8,26 +8,11 @@ import android.os.IBinder;
 import android.os.Bundle;
 import android.util.Log;
 
-import android.net.Uri;
-import android.net.Uri.Builder;
-
-import android.widget.Toast;
-
-import android.os.Handler;
-
-import android.widget.Toast;
-
-import java.util.Date; 
-import java.text.SimpleDateFormat; 
-
 import java.io.IOException;
 
 import android.os.AsyncTask;
-import android.annotation.SuppressLint;
 
-//GCM 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
+//GCM
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import java.util.concurrent.atomic.AtomicInteger;
