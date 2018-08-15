@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:orientation="vertical"
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"
+	      android:background="@drawable/ryutogps"
+	      android:gravity="bottom"
+	      >
+
+  <LinearLayout
+     android:id="@+id/linearLayout1"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" >
+
+    <ImageButton android:id="@+id/sms1"
+		 android:layout_width="80px"
+		 android:layout_height="80px"
+		 android:layout_gravity="center_horizontal"
+		 android:scaleType="fitCenter"
+		 android:padding="0px"
+		 android:layout_margin="0px"
+		 android:background="#00000000"
+		 android:src="@drawable/mamamail" />
+    
+    <ImageButton android:id="@+id/sms2"
+		 android:layout_width="80px"
+		 android:layout_height="80px"
+		 android:layout_gravity="center_horizontal"
+		 android:scaleType="fitCenter"
+		 android:padding="0px"
+		 android:layout_margin="0px"
+		 android:background="#00000000"
+		 android:src="@drawable/papamail" />
+    
+    <ImageButton android:id="@+id/skype"
+		 android:layout_width="80px"
+		 android:layout_height="80px"
+		 android:layout_gravity="center_horizontal"
+		 android:scaleType="fitCenter"
+		 android:padding="0px"
+		 android:layout_margin="0px"
+		 android:background="#00000000"
+		 android:src="@drawable/skype" />
+    
+    <ImageButton android:id="@+id/led_button"
+		 android:layout_width="80px"
+		 android:layout_height="80px"
+		 android:layout_gravity="center_horizontal"
+		 android:scaleType="fitCenter"
+		 android:padding="0px"
+		 android:layout_margin="0px"
+		 android:background="#00000000"
+		 android:src="@drawable/led_button_image" />
+    
+
+  </LinearLayout>
+
+</LinearLayout>
+
